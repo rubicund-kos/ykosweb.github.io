@@ -1,0 +1,216 @@
+
+
+@media screen and (min-width: 930px)
+	.burger
+		display: none
+	.navbar
+		display: block !important
+
+@media screen and (max-width: 1700px)
+	.skills_wrap
+		min-height: 400px
+
+@media screen and (max-width: 1370px)
+	.charts_gray
+		width: 300px
+	.companies
+		.companies_wrap
+			padding: 0 20px
+	.footer_content
+		padding: 0 20px
+@media screen and (max-width: 1160px)
+	.skills_wrap
+		min-height: 350px
+		justify-content: center
+		.professional_img
+			display: none
+		.bar_charts
+			margin-top: 15px
+	.charts_gray
+		width: 500px
+	.indicators_wrap 
+		.indicator_item 
+			img
+				padding-right: 10px
+	.work_video
+		iframe
+			width: 100%
+			height: 500px
+@media screen and (max-width: 1100px)
+	.about
+		p
+			margin: 41px 200px 0
+	.gallery
+		&_block_first, &_block_second
+			height: 440px
+			flex-wrap: wrap
+			.work
+				width: 50%
+	.text_slider .slider_content
+		margin: 0 100px
+@media screen and (max-width: 950px)
+	.indicators_wrap
+		margin-left: 110px
+		flex-wrap: wrap
+		justify-content: space-between
+		.indicator_item
+			width: 45%
+			padding: 0
+
+
+@media screen and (max-width: 929px)
+	.header
+		min-height: 570px
+		position: relative
+		.button
+			margin-bottom: 20px
+	.top-line
+		position: relative
+	.navbar
+		display: block
+		position: absolute
+		top: 42px
+		right: 42px
+		transition: .5s ease
+		transform-origin: right center
+		transform: scaleX(0) translateX(20%)
+		opacity: 0
+		&__item
+			padding: 0 38px
+			display: block
+			background-color: rgba(255,255,255,.8)
+			border-bottom: 1px solid black
+			&:hover
+				border-bottom: 1px solid $accent
+		&-active
+			transform: scaleX(1) translateX(0%)
+			opacity: 1
+		.active
+			border-bottom: 1px solid $accent
+			a
+				color: $accent	
+	.header_content
+		margin-left: 0
+		margin-top: 145px
+		text-align: center
+		h1
+			line-height: 1.2
+			margin-left: 0		
+		p
+			margin: 0 30px 30px
+	.work_video
+		iframe
+			width: 100%
+			height: 300px
+	.services
+		padding: 0
+		.service
+			&_item
+				h5
+					margin: 10px 0
+	.communication_form
+		.form_wrapper
+			padding: 80px 20px
+@media screen and (max-width: 720px)
+	.about
+		p
+			margin: 41px 50px 0
+	.signature-wrap
+		margin-bottom: 50px
+	.charts_gray
+		width: 350px
+	.indicators_wrap
+		margin-left: 40px
+	.gallery
+		&_block_first, &_block_second
+			height: 300px
+	.services
+		.service
+			&_item
+				h5
+					font-size: 10px
+					margin: 5px 0 0
+				p
+					margin: 5px 0
+					font-size: 12px
+	.companies
+		display: none
+	.form
+			.block_1
+				display: flex
+				flex-direction: column
+	
+	.communication_form .form_wrapper .form .block_1 .input_wrap
+		width: 100%
+		margin-top: 30px
+	.communication_form .form_wrapper .form_content p
+		padding-bottom: 0
+	.footer
+		.footer_content
+			padding: 30px 20px
+			flex-wrap: wrap
+			& > div
+				min-width: 45%
+			.social_networks
+				text-align: right
+			.contacts
+				text-align: right
+@media screen and (max-width: 535px)
+	
+	.charts_gray
+		width: 250px
+	.indicators_wrap
+		width: 100%
+		margin-left: 20%
+		flex-wrap: nowrap
+		justify-content: center
+		flex-direction: column
+		.indicator_item
+			width: 100%
+			display: flex
+			margin: 10px auto
+	.gallery
+		&_block_first, &_block_second
+			height: 200px
+	.work_description
+		p
+			padding: 10px
+	
+	.work_video
+		iframe
+			width: 100%
+			height: 200px
+	.services
+		padding: 20px 0
+		.service
+			padding: 0
+			flex-wrap: wrap
+			&_item
+				width: 45%
+				padding: 7px
+		
+	.text_slider
+		min-height: 400px
+		.slider_content
+			margin: 0 20px		
+			.quote
+				font-size: 20px	
+	.footer
+		.footer_content
+			flex-direction: column
+			& > div
+				min-width: inherit
+				padding-top: 15px
+			.creator, .contacts, .links, .social_networks
+				text-align: center
+	.creator
+		p
+			max-width: none
+	.contacts
+		max-width: none
+	.links
+		width: auto
+		justify-content: space-around
+	
+	
+			
