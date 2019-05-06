@@ -216,6 +216,7 @@ body
 	.work
 		position: relative
 		overflow-y: hidden
+		transition: all .5s ease
 		&:hover:before
 			transform: translateY(0)
 			opacity: 1
@@ -329,6 +330,25 @@ body
 			text-align: center
 			padding: 10px 10px
 			position: relative
+			overflow: hidden
+			transition: all .4s			
+			&:hover
+				transform: translate(2px)
+				box-shadow:  0 4px 10px rgba(0,0,0,0.5)
+				&:before
+					transform: translateX(25em) skewX(-45deg)
+			&:before
+				content: ''
+				display: block
+				width: 1.5em
+				height: 100%
+				position: absolute
+				top: 0
+				left: 0
+				background-color: rgba(#fff, .7)
+				transform: translateX(-8em) skewX(-45deg)
+				transition: all .7s
+				
 			h5
 				color: #191919
 				font-size: 12px
