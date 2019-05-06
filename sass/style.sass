@@ -290,6 +290,12 @@ body
 	display: flex
 	justify-content: center
 	align-items: center
+	transition: all .8s ease 
+	&:hover
+		background-color: #ccc
+		.load_more
+			color: #000
+			transform: scale(1.2)
 	.load_more
 		display: block
 		+titleFont
@@ -301,6 +307,7 @@ body
 		transition: all .2s ease
 		&:hover
 			color: $accent
+
 
 //Section work_process
 .work_process

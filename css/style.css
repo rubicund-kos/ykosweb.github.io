@@ -450,6 +450,18 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
+}
+
+.button_load:hover {
+  background-color: #ccc;
+}
+
+.button_load:hover .load_more {
+  color: #000;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .button_load .load_more {
